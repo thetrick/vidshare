@@ -1,8 +1,4 @@
 /**
- * Created by Peter Sbarski
- * Updated by Mike Chambers
- * Last Updated: 1/02/2017
- *
  * Required Env Vars:
  * ELASTIC_TRANSCODER_REGION
  * ELASTIC_TRANSCODER_PIPELINE_ID

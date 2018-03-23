@@ -3,7 +3,8 @@
 .DS_Store
 
 # Builds
-Lambda-Deployment.zip
+vidshare-tgh-transcode-video.zip
+*-lock.json
 
 node_modules
 
