@@ -1,8 +1,8 @@
 var configConstants = {
     auth0: {
-        domain: 'vidshare-tgh.auth0.com',
-        clientId: 'vC0gdJufOKCIvRLhEhqKqQDPX0un4_1u'
+        domain: '##ENTER_YOUR_OWN##.auth0.com',
+        clientId: '##ENTER_YOUR_OWN##'
     },
-    apiBaseUrl: 'YOUR_API_BASE_URL_HERE_NO_TRAILING_SLASH',
-    firebaseUrl: 'YOUR_FIRE_BASE_URL_HERE_NO_TRAILING_SLASH'
+    apiBaseUrl: '##ENTER_YOUR_OWN##',
+    firebaseUrl: '##ENTER_YOUR_OWN##'
 };
