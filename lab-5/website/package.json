@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "The 24 Hour Video Website",
   "local-web-server": {
-    "port": 8100,
+    "port": 8181,
     "forbid": "*.json"
   },
   "scripts": {
