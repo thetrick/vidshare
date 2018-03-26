@@ -4,8 +4,8 @@
   "description": "This Lambda function is used to authorize requests",
   "main": "index.js",
   "scripts": {
-    "deploy": "aws lambda update-function-code --function-name arn:aws:lambda:us-east-1:038671756123:function:custom-authorizer --zip-file fileb://Lambda-Deployment.zip",
-    "predeploy": "zip -r Lambda-Deployment.zip * -x *.zip *.json *.log"
+    "deploy": "aws lambda update-function-code --function-name arn:aws:lambda:us-east-1:503080364706:function:vidshare-tgh-custom-authorizer --zip-file fileb://vidshare-tgh-custom-authorizer.zip",
+    "predeploy": "7z a -tzip vidshare-tgh-custom-authorizer.zip * -r -x!*.zip x!*.json x!*.log"
   },
   "dependencies": {
     "jsonwebtoken": "^5.7.0",

@@ -1,9 +1,4 @@
 /**
- * Created by Peter Sbarski
- * Updated by Mike Chambers
- * Updated by Julian Pittas
- * Last Updated: 10/01/2018
- *
  * Required Env consts:
  * AUTH0_DOMAIN
  */

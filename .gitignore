@@ -4,6 +4,8 @@
 
 # Builds
 vidshare-tgh-transcode-video.zip
+vidshare-tgh-custom-authorizer.zip
+vidshare-tgh-user-profile.zip
 *-lock.json
 
 node_modules
