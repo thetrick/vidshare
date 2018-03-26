@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "run-local-lambda --file index.js --event tests/event.json",
-    "create": "aws lambda create-function --function-name get-upload-policy --handler index.handler --memory-size 128 --runtime nodejs4.3 --role arn:aws:iam::038221756127:role/lambda-s3-execution-role --timeout 3 --publish --zip-file fileb://Lambda-Deployment.zip",
-    "deploy": "aws lambda update-function-code --function-name get-upload-policy --zip-file fileb://Lambda-Deployment.zip",
-    "precreate": "zip -r Lambda-Deployment.zip * -x *.zip *.json *.log",
-    "predeploy": "zip -r Lambda-Deployment.zip * -x *.zip *.json *.log"
+    "create": "aws lambda create-function --function-name vidshare-tgh-get-upload-policy --handler index.handler --memory-size 128 --runtime nodejs6.10 --role arn:aws:iam::503080364706:role/vidshare-lambda-s3-execution-role --timeout 3 --publish --zip-file fileb://vidshare-tgh-get-upload-policy.zip",
+    "deploy": "aws lambda update-function-code --function-name vidshare-tgh-get-upload-policy --zip-file fileb://vidshare-tgh-get-upload-policy.zip",
+    "precreate": "7z a -tzip vidshare-tgh-get-upload-policy.zip * -r -x!*.zip x!*.json x!*.log",
+    "predeploy": "7z a -tzip vidshare-tgh-get-upload-policy.zip * -r -x!*.zip x!*.json x!*.log"
   },
   "dependencies": {
     "async": "^2.0.0-rc.3",

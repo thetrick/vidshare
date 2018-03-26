@@ -1,7 +1,7 @@
 var configConstants = {
     auth0: {
-        domain: '##ENTER_YOUR_OWN##.auth0.com',
-        clientId: '##ENTER_YOUR_OWN##'
+        domain: 'vidshare-tgh.auth0.com',
+        clientId: 'vC0gdJufOKCIvRLhEhqKqQDPX0un4_1u'
     },
-    apiBaseUrl: '##ENTER_YOUR_OWN##'
+    apiBaseUrl: 'https://api.awspractice.com/v1'
 };

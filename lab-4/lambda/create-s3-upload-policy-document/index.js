@@ -1,8 +1,4 @@
 /**
- * Created by Peter Sbarski
- * Updated by Mike Chambers
- * Last Updated: 1/02/2017
- *
  * Required Env Vars:
  * UPLOAD_BUCKET
  * SECRET_ACCESS_KEY
